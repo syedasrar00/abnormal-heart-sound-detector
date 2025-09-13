@@ -2,4 +2,5 @@ streamlit
 sounddevice
 librosa
 numpy
+scipy
 scikit-learn
