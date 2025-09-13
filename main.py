@@ -7,10 +7,10 @@ import librosa
 # -----------------------
 # Load Model and Scaler
 # -----------------------
-with open("pkl/model.pkl", "rb") as f:
+with open("model.pkl", "rb") as f:
     model = pickle.load(f)
 
-with open("pkl/scaler.pkl", "rb") as f:
+with open("scaler.pkl", "rb") as f:
     scaler = pickle.load(f)
 
 # -----------------------
@@ -61,3 +61,4 @@ if st.button("Record Heart Sound"):
         st.success(f"✅ Normal Heart Sound (Confidence: {proba.max()*100:.2f}%)")
     else:
         st.error(f"⚠️ Abnormal Heart Sound (Confidence: {proba.max()*100:.2f}%)")
+
