@@ -1,6 +1,6 @@
-streamlit
-sounddevice
-librosa
-numpy
-scipy
-scikit-learn
+streamlit==1.36.0
+sounddevice==0.4.6
+librosa==0.10.1
+numpy==1.26.4
+scipy==1.11.4
+scikit-learn==1.4.2
