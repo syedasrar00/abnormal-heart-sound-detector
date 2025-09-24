@@ -1,1 +1,0 @@
-# abnormal-heart-sound-detector
